@@ -1,0 +1,9 @@
+{
+  "name": "cds-jv-basketball",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "cds-jv-basketball", "database_id": "PASTE-YOUR-DATABASE-ID-HERE" }
+  ]
+}
